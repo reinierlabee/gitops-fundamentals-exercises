@@ -5,7 +5,7 @@ metadata:
   namespace: reinierlabee
 spec:
   acme:
-    email: user@example.com
+    email: reinier.labee@funatic.nl
     server: https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
       name: example-issuer-account-key
