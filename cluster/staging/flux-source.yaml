@@ -1,0 +1,14 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: flux-fundamentals
+  namespace: reinierlabee
+spec:
+  interval: 10m0s
+  ref:
+    branch: main
+  secretRef:
+    name: flux-fundamentals
+  timeout: 1m0s
+  url: https://github.com/reinierlabee/gitops-fundamentals-exercises.git
